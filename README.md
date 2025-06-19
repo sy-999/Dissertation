@@ -8,7 +8,7 @@ All experiments are based on real-world urban simulation using SUMO (Simulation 
 
 ##  Folder Structure
 
-###`1_Qlearning_vs_Fixed_vs_Dijkstra`
+### `1_Qlearning_vs_Fixed_vs_Dijkstra`
 - Comparison of routing strategies in SUMO:
   - Q-learning based dynamic routing
   - Fixed routing paths
@@ -25,8 +25,7 @@ All experiments are based on real-world urban simulation using SUMO (Simulation 
   - CPU: Intel Core i3 processor
 - Metrics:
   - Latency (ms)
-  - Resource usage
-  - Power efficiency (qualitative)
+
 
 ### `3_Communication_RaspberryPi_CPU_FPGA`
 - Embedded system configuration for edge computing:
@@ -35,7 +34,7 @@ All experiments are based on real-world urban simulation using SUMO (Simulation 
   - FPGA node for RL acceleration
 - Communication protocols:
   - TCP socket (CPU ↔ Pi)
-  - UART (Pi ↔ FPGA)
+  - Secure Shell (Pi ↔ FPGA)
 
 ##  How to Run
 
@@ -55,6 +54,6 @@ Basic Requirements:
 | Fixed route | ✖ Worst              | ✖                   | ✖            | ✅             |
 | FPGA Accel. | ✅ (vs CPU) 	        | -                      | -               | ✅ ✅        |
 
-## 📜 License
+##  License
 
 This project is intended for academic research only. All code and content © Sooyeon Kim, 2024.
