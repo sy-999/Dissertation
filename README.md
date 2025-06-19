@@ -14,9 +14,9 @@ All experiments are based on real-world urban simulation using SUMO (Simulation 
   - Fixed routing paths
   - Traditional Dijkstra algorithm
 - Evaluation metrics:
-  - ⏱ Average travel time
-  - ⛽ Fuel consumption
-  - 🌫 CO₂ emission
+  -  Average travel time
+  -  Fuel consumption
+  -  CO₂ emission
 
 ### `2_CPU_vs_FPGA`
 - Performance comparison between CPU and FPGA execution of RL-based decision-making.
