@@ -48,11 +48,13 @@ Basic Requirements:
 
 ##  Key Findings (Summary Table)
 
-| Scenario    | Avg Travel Time ↓   | CO₂ Emission ↓ | Fuel Use ↓ | Latency ↓ |
+| Scenario    | Avg Travel Time ↓   | CO₂ Emission ↓          | Fuel Use ↓    | Latency ↓   |
 |--------------|-------------------------|--------------------|---------------|--------------|
-| Q-learning | ✅ Best                   | ✅                | ✅             | ✖ (on CPU)|
+| Q-learning | ✅ Best                   | ✅                | ✅             |             |
 | Fixed route | ✖ Worst              | ✖                   | ✖            | ✅             |
-| SUMO(dijkstra) | ✅ (vs CPU) 	        | -                      | -               | ✅ ✅        |
+| SUMO(dijkstra) | ✅       	        | -                      | -               |           |
+| CPU |- | - | - | ✖ Worst|
+| FPGA |- | - | - |✅ Best|
 
 ##  License
 
