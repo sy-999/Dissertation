@@ -52,7 +52,7 @@ Basic Requirements:
 |--------------|-------------------------|--------------------|---------------|--------------|
 | Q-learning | ✅ Best                   | ✅                | ✅             | ✖ (on CPU)|
 | Fixed route | ✖ Worst              | ✖                   | ✖            | ✅             |
-| FPGA Accel. | ✅ (vs CPU) 	        | -                      | -               | ✅ ✅        |
+| SUMO(dijkstra) | ✅ (vs CPU) 	        | -                      | -               | ✅ ✅        |
 
 ##  License
 
